@@ -6,6 +6,10 @@ target 'PhoneNumberVerification' do
   use_frameworks!
 
   # Pods for PhoneNumberVerification
+  # The below lines for Fabrics
+  pod 'Fabric'
+  pod 'Digits'
+  pod 'TwitterCore'
 
   target 'PhoneNumberVerificationTests' do
     inherit! :search_paths

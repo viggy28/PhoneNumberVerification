@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D0DCFA0B22240DCEB732AD2 /* Pods_PhoneNumberVerificationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D72992AB7D4A56BDCD61BF /* Pods_PhoneNumberVerificationTests.framework */; };
 		77AD06EC1E4AB5EE00C6396D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AD06EB1E4AB5EE00C6396D /* AppDelegate.swift */; };
 		77AD06EE1E4AB5EE00C6396D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AD06ED1E4AB5EE00C6396D /* ViewController.swift */; };
 		77AD06F11E4AB5EE00C6396D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77AD06EF1E4AB5EE00C6396D /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		77AD06F61E4AB5EE00C6396D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77AD06F41E4AB5EE00C6396D /* LaunchScreen.storyboard */; };
 		77AD07011E4AB5EE00C6396D /* PhoneNumberVerificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AD07001E4AB5EE00C6396D /* PhoneNumberVerificationTests.swift */; };
 		77AD070C1E4AB5EE00C6396D /* PhoneNumberVerificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AD070B1E4AB5EE00C6396D /* PhoneNumberVerificationUITests.swift */; };
+		88CAAAFB8A13D888B06E99E9 /* Pods_PhoneNumberVerificationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B64D7BF0C20BDE82D630C06 /* Pods_PhoneNumberVerificationUITests.framework */; };
+		ABD0570309E221F1D9C0FA83 /* Pods_PhoneNumberVerification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B97909763623B555719485E /* Pods_PhoneNumberVerification.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57415955B1C55471B2D81F7E /* Pods-PhoneNumberVerificationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneNumberVerificationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneNumberVerificationTests/Pods-PhoneNumberVerificationTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B64D7BF0C20BDE82D630C06 /* Pods_PhoneNumberVerificationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneNumberVerificationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AD06E81E4AB5EE00C6396D /* PhoneNumberVerification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneNumberVerification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AD06EB1E4AB5EE00C6396D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77AD06ED1E4AB5EE00C6396D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		77AD07071E4AB5EE00C6396D /* PhoneNumberVerificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneNumberVerificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AD070B1E4AB5EE00C6396D /* PhoneNumberVerificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberVerificationUITests.swift; sourceTree = "<group>"; };
 		77AD070D1E4AB5EE00C6396D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B97909763623B555719485E /* Pods_PhoneNumberVerification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneNumberVerification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5634AF6B4970808FF3F4E5D /* Pods-PhoneNumberVerification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneNumberVerification.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneNumberVerification/Pods-PhoneNumberVerification.debug.xcconfig"; sourceTree = "<group>"; };
+		A773FA278F528D056D076E2B /* Pods-PhoneNumberVerificationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneNumberVerificationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneNumberVerificationUITests/Pods-PhoneNumberVerificationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5D163FFB7D791D331C6E061 /* Pods-PhoneNumberVerificationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneNumberVerificationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneNumberVerificationTests/Pods-PhoneNumberVerificationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E341E3129AB4E5C9F7429672 /* Pods-PhoneNumberVerification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneNumberVerification.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneNumberVerification/Pods-PhoneNumberVerification.release.xcconfig"; sourceTree = "<group>"; };
+		F7D72992AB7D4A56BDCD61BF /* Pods_PhoneNumberVerificationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneNumberVerificationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9F5D90FB11C4C6107BC648 /* Pods-PhoneNumberVerificationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneNumberVerificationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneNumberVerificationUITests/Pods-PhoneNumberVerificationUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD0570309E221F1D9C0FA83 /* Pods_PhoneNumberVerification.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D0DCFA0B22240DCEB732AD2 /* Pods_PhoneNumberVerificationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88CAAAFB8A13D888B06E99E9 /* Pods_PhoneNumberVerificationUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				77AD06FF1E4AB5EE00C6396D /* PhoneNumberVerificationTests */,
 				77AD070A1E4AB5EE00C6396D /* PhoneNumberVerificationUITests */,
 				77AD06E91E4AB5EE00C6396D /* Products */,
+				97D02A06C071B720A3F9C37B /* Pods */,
+				C99579645FC9A8477913F231 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = PhoneNumberVerificationUITests;
 			sourceTree = "<group>";
 		};
+		97D02A06C071B720A3F9C37B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5634AF6B4970808FF3F4E5D /* Pods-PhoneNumberVerification.debug.xcconfig */,
+				E341E3129AB4E5C9F7429672 /* Pods-PhoneNumberVerification.release.xcconfig */,
+				C5D163FFB7D791D331C6E061 /* Pods-PhoneNumberVerificationTests.debug.xcconfig */,
+				57415955B1C55471B2D81F7E /* Pods-PhoneNumberVerificationTests.release.xcconfig */,
+				FC9F5D90FB11C4C6107BC648 /* Pods-PhoneNumberVerificationUITests.debug.xcconfig */,
+				A773FA278F528D056D076E2B /* Pods-PhoneNumberVerificationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C99579645FC9A8477913F231 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B97909763623B555719485E /* Pods_PhoneNumberVerification.framework */,
+				F7D72992AB7D4A56BDCD61BF /* Pods_PhoneNumberVerificationTests.framework */,
+				6B64D7BF0C20BDE82D630C06 /* Pods_PhoneNumberVerificationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77AD07101E4AB5EE00C6396D /* Build configuration list for PBXNativeTarget "PhoneNumberVerification" */;
 			buildPhases = (
+				85185CEB2C94EBECE0812ED6 /* [CP] Check Pods Manifest.lock */,
 				77AD06E41E4AB5EE00C6396D /* Sources */,
 				77AD06E51E4AB5EE00C6396D /* Frameworks */,
 				77AD06E61E4AB5EE00C6396D /* Resources */,
+				29D0256721DB3D4F2674031A /* [CP] Embed Pods Frameworks */,
+				96EE492AC9B8E6380E51174C /* [CP] Copy Pods Resources */,
+				77AD07191E4AB90C00C6396D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77AD07131E4AB5EE00C6396D /* Build configuration list for PBXNativeTarget "PhoneNumberVerificationTests" */;
 			buildPhases = (
+				79AA8A5EEFDF9C54713BC9B5 /* [CP] Check Pods Manifest.lock */,
 				77AD06F81E4AB5EE00C6396D /* Sources */,
 				77AD06F91E4AB5EE00C6396D /* Frameworks */,
 				77AD06FA1E4AB5EE00C6396D /* Resources */,
+				2763B1AE4A885E6C5FC7A6F9 /* [CP] Embed Pods Frameworks */,
+				2BDCCA05950AE2023C1A2B84 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77AD07161E4AB5EE00C6396D /* Build configuration list for PBXNativeTarget "PhoneNumberVerificationUITests" */;
 			buildPhases = (
+				B83F6AC27526E4600D5AA0A3 /* [CP] Check Pods Manifest.lock */,
 				77AD07031E4AB5EE00C6396D /* Sources */,
 				77AD07041E4AB5EE00C6396D /* Frameworks */,
 				77AD07051E4AB5EE00C6396D /* Resources */,
+				07CBF0400E4DB47988838A26 /* [CP] Embed Pods Frameworks */,
+				1710008476396535668A5A30 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +303,157 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07CBF0400E4DB47988838A26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneNumberVerificationUITests/Pods-PhoneNumberVerificationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1710008476396535668A5A30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneNumberVerificationUITests/Pods-PhoneNumberVerificationUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2763B1AE4A885E6C5FC7A6F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneNumberVerificationTests/Pods-PhoneNumberVerificationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29D0256721DB3D4F2674031A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneNumberVerification/Pods-PhoneNumberVerification-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BDCCA05950AE2023C1A2B84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneNumberVerificationTests/Pods-PhoneNumberVerificationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77AD07191E4AB90C00C6396D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" a91d89b4a0c7b9ef7a9c6784b1c51394e1bcb859 6ab563a0dbbd4ceb8a0de33782b7ae04aee66c7e8b294b871366a8304178169f";
+		};
+		79AA8A5EEFDF9C54713BC9B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85185CEB2C94EBECE0812ED6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96EE492AC9B8E6380E51174C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneNumberVerification/Pods-PhoneNumberVerification-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B83F6AC27526E4600D5AA0A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		77AD06E41E4AB5EE00C6396D /* Sources */ = {
@@ -410,6 +611,7 @@
 		};
 		77AD07111E4AB5EE00C6396D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5634AF6B4970808FF3F4E5D /* Pods-PhoneNumberVerification.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhoneNumberVerification/Info.plist;
@@ -422,6 +624,7 @@
 		};
 		77AD07121E4AB5EE00C6396D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E341E3129AB4E5C9F7429672 /* Pods-PhoneNumberVerification.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhoneNumberVerification/Info.plist;
@@ -434,6 +637,7 @@
 		};
 		77AD07141E4AB5EE00C6396D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D163FFB7D791D331C6E061 /* Pods-PhoneNumberVerificationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +652,7 @@
 		};
 		77AD07151E4AB5EE00C6396D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57415955B1C55471B2D81F7E /* Pods-PhoneNumberVerificationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +667,7 @@
 		};
 		77AD07171E4AB5EE00C6396D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC9F5D90FB11C4C6107BC648 /* Pods-PhoneNumberVerificationUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = PhoneNumberVerificationUITests/Info.plist;
@@ -475,6 +681,7 @@
 		};
 		77AD07181E4AB5EE00C6396D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A773FA278F528D056D076E2B /* Pods-PhoneNumberVerificationUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = PhoneNumberVerificationUITests/Info.plist;
@@ -505,6 +712,7 @@
 				77AD07121E4AB5EE00C6396D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77AD07131E4AB5EE00C6396D /* Build configuration list for PBXNativeTarget "PhoneNumberVerificationTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +721,7 @@
 				77AD07151E4AB5EE00C6396D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77AD07161E4AB5EE00C6396D /* Build configuration list for PBXNativeTarget "PhoneNumberVerificationUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +730,7 @@
 				77AD07181E4AB5EE00C6396D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_PhoneNumberVerification {
+  umbrella header "Pods-PhoneNumberVerification-umbrella.h"
+
+  export *
+  module * { export * }
+}
